@@ -17,4 +17,12 @@
       Bryant Richards
   </author>
 
+  <platform name="android">
+    <icon src="assets/mdpi.png" density="mdpi" />
+    <icon src="assets/ldpi.png" density="ldpi" />
+    <icon src="assets/hdpi.png" density="hdpi" />
+    <icon src="assets/xdpi.png" density="xhdpi" />
+    <icon src="assets/xxdpi.png" density="xxhdpi" />
+  </platform>
+
 </widget>
