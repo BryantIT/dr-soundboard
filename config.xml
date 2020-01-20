@@ -9,6 +9,8 @@
 
   <name>Dr. Soundboard</name>
 
+  <preference name="android-minSdkVersion" value="17" />
+
   <description>
       A fun little soundboard to help you feel better
   </description>
