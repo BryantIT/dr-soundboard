@@ -1,0 +1,12 @@
+.root {
+  position: relative;
+}
+
+.root > div {
+  position: absolute;
+  cursor: pointer;
+}
+
+.root[debug] > div {
+  background-color: rgba(255, 0, 0, 0.5);
+}
