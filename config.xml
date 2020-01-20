@@ -3,7 +3,7 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.phonegap.example"
     versionCode = "10"
-    version     = "1.0.0" >
+    version     = "2.0.0" >
 
 <!-- versionCode is optional and Android only -->
 
@@ -13,8 +13,8 @@
       A fun little soundboard to help you feel better
   </description>
 
-  <author href="https://wayofthecode.com" email="b.rich@wayofthecode.com">
-      Bryant Richards
+  <author href="http://www.sketchmacq.com" email="sketchington@gmail.com">
+      Sketch MacQuinor -- Artist, animator, idea man
   </author>
 
   <platform name="android">
