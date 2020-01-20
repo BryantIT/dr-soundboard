@@ -18,11 +18,11 @@
   </author>
 
   <platform name="android">
-    <icon src="src/icon/android-icon-48x48.png" density="mdpi" />
-    <icon src="src/icon/android-icon-48x48.png" density="ldpi" />
-    <icon src="src/icon/android-icon-48x48.png" density="hdpi" />
-    <icon src="src/icon/android-icon-48x48.png" density="xhdpi" />
-    <icon src="src/icon/android-icon-48x48.png" density="xxhdpi" />
+    <icon src="src/icon/android-icon-96x96.png" density="mdpi" />
+    <icon src="src/icon/android-icon-96x96.png" density="ldpi" />
+    <icon src="src/icon/android-icon-96x96.png" density="hdpi" />
+    <icon src="src/icon/android-icon-96x96.png" density="xhdpi" />
+    <icon src="src/icon/android-icon-96x96.png" density="xxhdpi" />
   </platform>
 
 </widget>
