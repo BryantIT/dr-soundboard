@@ -21,3 +21,10 @@ div {
   -webkit-user-select: none;
   -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
 }
+
+.how-was-your-week {
+  left: 4%;
+  top: 46%;
+  width: 35%;
+  height: 10%
+}
