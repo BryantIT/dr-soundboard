@@ -48,3 +48,9 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+// background music
+var myAudio = document.getElementById("noise");
+function togglePlay() {
+  return myAudio.paused ? myAudio.play() : myAudio.pause();
+};
