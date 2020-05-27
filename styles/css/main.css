@@ -16,6 +16,7 @@ img {
   height: auto;
 }
 
+/* removes highlighting on touch */
 div {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
