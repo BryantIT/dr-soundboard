@@ -15,3 +15,9 @@ img {
   width: 100%;
   height: auto;
 }
+
+div {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+}
