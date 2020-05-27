@@ -26,6 +26,7 @@
 
   <link rel="stylesheet" href="styles/css/main.css">
   <link rel="stylesheet" href="styles/css/map.css">
+  <link rel="stylesheet" href="styles/css/modal.css">
   <title>Dr Soundboard</title>
 </head>
 
@@ -39,7 +40,7 @@
 
       <img src="src/img/DrSoundboard03.jpg" usemap="#imgmap">
 
-      <div class="how-was-your-week" play="how-was-your-week"></div>
+      <div class="debug how-was-your-week" play="how-was-your-week"></div>
 
       <div class="how-does-that-make-you-feel" play="how-does-that-make-you-feel"></div>
 
@@ -56,30 +57,39 @@
       <div class="valid" play="valid"></div>
 
       <div class="disclaimer" play="disclaimer"></div>
+
+      <div class="credits" id="credits"></div>
+
+      <div id="myModal" class="modal">
+
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <img src="src/img/Credits.jpg">
+        </div>
+      </div>
+
+
     </div>
 
 
-  </div>
+
+
+
+    <audio src="src/sounds/how-was-your-day.wav" name="how-was-your-week" />
+    <audio src="src/sounds/how-does-that-make-you-feel.wav" name="how-does-that-make-you-feel" />
+    <audio src="src/sounds/what-would-you-say.wav" name="what-would-you-say" />
+    <audio src="src/sounds/lets-explore-that.wav" name="lets-explore" />
+    <audio src="src/sounds/please-go-on.wav" name="go-on" />
+    <audio src="src/sounds/im-very-proud-of-you.wav" name="im-proud" />
+    <audio src="src/sounds/i-think-thats-for-you.wav" name="decide" />
+    <audio src="src/sounds/your-feelings-are-valid.wav" name="valid" />
+    <audio src="src/sounds/disclaimer.wav" name="disclaimer" />
 
 
 
 
 
-  <audio src="src/sounds/how-was-your-day.wav" name="how-was-your-week" />
-  <audio src="src/sounds/how-does-that-make-you-feel.wav" name="how-does-that-make-you-feel" />
-  <audio src="src/sounds/what-would-you-say.wav" name="what-would-you-say" />
-  <audio src="src/sounds/lets-explore-that.wav" name="lets-explore" />
-  <audio src="src/sounds/please-go-on.wav" name="go-on" />
-  <audio src="src/sounds/im-very-proud-of-you.wav" name="im-proud" />
-  <audio src="src/sounds/i-think-thats-for-you.wav" name="decide" />
-  <audio src="src/sounds/your-feelings-are-valid.wav" name="valid" />
-  <audio src="src/sounds/disclaimer.wav" name="disclaimer" />
-
-
-
-
-
-  <script src="src/index.js"></script>
+    <script src="src/index.js"></script>
 </body>
 
 </html>
