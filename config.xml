@@ -26,9 +26,9 @@
 
 
   <!-- Android only -->
-  <preference name="android-minSdkVersion" value="19" />
-  <preference name="android-maxSdkVersion" value="22" />
-  <preference name="android-targetSdkVersion" value="17" />
+  <preference name="android-minSdkVersion" value="21" />
+  <preference name="android-maxSdkVersion" value="29" />
+  <preference name="android-targetSdkVersion" value="21" />
   <preference name="android-installLocation" value="auto" />
   <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
 
